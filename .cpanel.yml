@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/xpdyamyp/public_html/nuxt.box1free.cfbx.jp/nuxt
+    - /bin/cp -R * $DEPLOYPATH
